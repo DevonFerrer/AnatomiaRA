@@ -1,0 +1,59 @@
+# ---- Unity ----
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/build/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/GeneratedAssets/
+/.utmp/
+/Respaldo/
+
+# Autogenerados por el IDE
+.vs/
+.vscode/
+.idea/
+.gradle/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+ExportedObj/
+.consulo/
+sysinfo.txt
+crashlytics-build.properties
+
+# Builds de Android
+*.apk
+*.aab
+*.unitypackage
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+*_BurstDebugInformation_DoNotShip/
+
+# Copias de seguridad de Blender
+*.blend1
+*.blend1.meta
+*.blend2
+
+# Ajustes locales del asistente
+/ProjectSettings/Packages/com.unity.ai.assistant/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini

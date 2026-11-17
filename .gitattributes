@@ -1,0 +1,28 @@
+# Texto (YAML de Unity, scripts)
+*.cs        text diff=csharp
+*.shader    text
+*.cginc     text
+*.hlsl      text
+*.json      text
+*.md        text
+*.txt       text
+*.uss       text
+*.inputactions text
+
+# YAML de Unity: sin conversión de fin de línea para evitar diffs falsos
+*.unity     text eol=lf merge=unityyamlmerge
+*.prefab    text eol=lf merge=unityyamlmerge
+*.asset     text eol=lf merge=unityyamlmerge
+*.mat       text eol=lf merge=unityyamlmerge
+*.meta      text eol=lf
+*.shadergraph text eol=lf
+
+# Binarios
+*.fbx   binary
+*.blend binary
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.ttf   binary
+*.otf   binary
+*.apk   binary
